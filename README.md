@@ -6,7 +6,7 @@
 [ ![license][] ](https://github.com/kanekireal/LWLogger/blob/master/LICENSE.md)
 [ ![changelog][] ](https://github.com/kanekireal/LWLogger/blob/master/CHANGELOG.md)
 
-#LWLogger 
+# LWLogger 
 
 LWLogger is an API including SLF4j.
 It's a logger and it having a configuration...
