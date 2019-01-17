@@ -11,7 +11,7 @@ import org.jetbrains.annotations.NotNull;
 public class DirGeneratorException extends Exception {
 
     /**
-     * Instantiates a new Dir generator exception.
+     * Instantiates a new DirGenerator exception.
      *
      * @param p the p
      */

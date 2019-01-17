@@ -16,10 +16,10 @@ import static java.lang.System.getProperty;
 public class DirGenerator extends File {
 
     /**
-     * Instantiates a new Dir generator.
+     * Instantiates a new DirGenerator.
      *
      * @param dirName the dir name
-     * @throws DirGeneratorException the dir generator exception
+     * @throws DirGeneratorException the DirGenerator exception
      */
     public DirGenerator(@NotNull final String dirName) throws DirGeneratorException {
         super(getProperty("os.name").toLowerCase().contains("win") ? getProperty("user.home") + "\\AppData\\Roaming\\." + dirName : getProperty("os.name").toLowerCase().contains("mac") ? getProperty("user.home") + "/Library/Application Support/" + dirName : getProperty("user.home") + "/." + dirName);
