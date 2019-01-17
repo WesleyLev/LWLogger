@@ -15,11 +15,29 @@ import static org.slf4j.spi.LocationAwareLogger.*;
  */
 enum LWLevel {
 
+    /**
+     * Trace LWLevel.
+     */
     TRACE(TRACE_INT, LWColor.CYAN),
+    /**
+     * Debug LWLevel.
+     */
     DEBUG(DEBUG_INT, LWColor.PURPLE),
+    /**
+     * Info LWLevel.
+     */
     INFO(INFO_INT, LWColor.BLUE),
+    /**
+     * Warn LWLevel.
+     */
     WARN(WARN_INT, LWColor.YELLOW),
+    /**
+     * Error LWLevel.
+     */
     ERROR(ERROR_INT, LWColor.RED),
+    /**
+     * Console LWLevel.
+     */
     CONSOLE(50, LWColor.GREEN);
 
 
@@ -43,19 +61,40 @@ enum LWLevel {
         this.color = color;
     }
 
+    /**
+     * Level to LWLevel LWLevel.
+     *
+     * @param level the level
+     * @return the LWLevel
+     */
     @NotNull
     public static LWLevel levelToLWLevel(final int level) {
         return levels.get(level);
     }
 
+    /**
+     * Gets levels.
+     *
+     * @return the levels
+     */
     public static Map<Integer, LWLevel> getLevels() {
         return levels;
     }
 
+    /**
+     * Gets level.
+     *
+     * @return the level
+     */
     public int getLevel() {
         return level;
     }
 
+    /**
+     * Gets color.
+     *
+     * @return the color
+     */
     public LWColor getColor() {
         return color;
     }

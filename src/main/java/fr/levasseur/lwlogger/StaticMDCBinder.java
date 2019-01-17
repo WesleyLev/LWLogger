@@ -16,14 +16,29 @@ public class StaticMDCBinder {
     private StaticMDCBinder() {
     }
 
+    /**
+     * Gets singleton.
+     *
+     * @return the singleton
+     */
     public static StaticMDCBinder getSingleton() {
         return SINGLETON;
     }
 
+    /**
+     * Gets mdca.
+     *
+     * @return the mdca
+     */
     public MDCAdapter getMDCA() {
         return new NOPMDCAdapter();
     }
 
+    /**
+     * Gets mdc adapter class str.
+     *
+     * @return the mdc adapter class str
+     */
     public String getMDCAdapterClassStr() {
         return NOPMDCAdapter.class.getName();
     }

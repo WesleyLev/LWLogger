@@ -10,6 +10,11 @@ import org.jetbrains.annotations.NotNull;
  */
 public class DirGeneratorException extends Exception {
 
+    /**
+     * Instantiates a new Dir generator exception.
+     *
+     * @param p the p
+     */
     public DirGeneratorException(@NotNull final String p) {
         super("(" + DirGeneratorException.class.getPackage().getName() + ") » Generate error. *" + p + "*");
     }

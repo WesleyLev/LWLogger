@@ -25,6 +25,12 @@ public class LWFactory implements ILoggerFactory {
     private final ConcurrentMap<String, LWLogger> loggers = new ConcurrentHashMap<>();
     private final List<String> logs = new ArrayList<>();
 
+    /**
+     * Instantiates a new LWFactory.
+     *
+     * @param logsDir the logs dir
+     * @throws DirGeneratorException the dir generator exception
+     */
     LWFactory(@NotNull final String logsDir) throws DirGeneratorException {
         this.logsDir = new DirGenerator(logsDir);
     }
@@ -41,10 +47,20 @@ public class LWFactory implements ILoggerFactory {
         }
     }
 
+    /**
+     * Log.
+     *
+     * @param log the log
+     */
     void log(@NotNull final String log) {
         this.logs.add(log);
     }
 
+    /**
+     * Save.
+     *
+     * @throws IOException the io exception
+     */
     public void save() throws IOException {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(this.logsDir.getPath() + "/" + LWLogger.dateFormat.format(new Date()).replace(":", "-") + ".log"), StandardCharsets.UTF_8));
         for (String line : logs) {

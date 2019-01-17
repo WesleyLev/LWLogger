@@ -15,11 +15,22 @@ public class LWLoggerBinder implements LoggerFactoryBinder {
     private final LWLoggerBinder SINGLETON;
     private final LWFactory factory;
 
+    /**
+     * Instantiates a new LWLoggerBinder.
+     *
+     * @param logsDir the logs dir
+     * @throws DirGeneratorException the dir generator exception
+     */
     public LWLoggerBinder(@NotNull final String logsDir) throws DirGeneratorException {
         this.factory = new LWFactory(logsDir);
         this.SINGLETON = this;
     }
 
+    /**
+     * Gets singleton.
+     *
+     * @return the singleton
+     */
     public LWLoggerBinder getSingleton() {
         return this.SINGLETON;
     }

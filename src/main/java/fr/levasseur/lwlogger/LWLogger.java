@@ -21,12 +21,21 @@ import static fr.levasseur.lwlogger.LWLevel.*;
  */
 public class LWLogger implements Logger {
 
+    /**
+     * The Date format.
+     */
     static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
     private static final String lineFormat = "[{DATE}] [{LEVEL}-{NAME}] {MESSAGE}";
     private final LWFactory factory;
     private final String name;
     private boolean debug = false, trace = false, info = true, warn = true, error = true;
 
+    /**
+     * Instantiates a new LWLogger.
+     *
+     * @param name    the name
+     * @param factory the factory
+     */
     public LWLogger(@NotNull final String name, @NotNull final LWFactory factory) {
         this.name = name;
         this.factory = factory;
@@ -37,22 +46,47 @@ public class LWLogger implements Logger {
         return this.name;
     }
 
+    /**
+     * Sets debug.
+     *
+     * @param debug the debug
+     */
     public void setDebug(final boolean debug) {
         this.debug = debug;
     }
 
+    /**
+     * Sets trace.
+     *
+     * @param trace the trace
+     */
     public void setTrace(final boolean trace) {
         this.trace = trace;
     }
 
+    /**
+     * Sets info.
+     *
+     * @param info the info
+     */
     public void setInfo(final boolean info) {
         this.info = info;
     }
 
+    /**
+     * Sets warn.
+     *
+     * @param warn the warn
+     */
     public void setWarn(final boolean warn) {
         this.warn = warn;
     }
 
+    /**
+     * Sets error.
+     *
+     * @param error the error
+     */
     public void setError(final boolean error) {
         this.error = error;
     }
