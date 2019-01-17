@@ -8,6 +8,12 @@ and this project adheres to [SemVer](http://semver.org/).
 ### Changed
 - Update and improvement.
 
+## [1.0.2] - 2019-01-17
+### Change (Update)
+- README.md
+- Javadoc
+- Source
+
 ## [1.0.1] - 2019-01-17
 ### Fix
 - .gitignore
@@ -26,3 +32,4 @@ and this project adheres to [SemVer](http://semver.org/).
 
 [Unreleased]: https://github.com/kanekireal/lwlogger/compare/v1.0.0-release...HEAD
 [1.0.1]: https://github.com/kanekireal/lwlogger/compare/v1.0.0-release...v1.0.1-release
+[1.0.1]: https://github.com/kanekireal/lwlogger/compare/v1.0.0-release...v1.0.2-release
