@@ -16,6 +16,10 @@ It is a logger, having a configration...
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/) - IDE
 * [SLF4j](https://www.slf4j.org) - The SLF4j library
 
+## Javadoc
+
+View [Javadoc](https://kanekireal.github.io/LWLogger/).
+
 ## Changelog
 
 View [Changelog](https://github.com/kanekireal/LWLogger/blob/master/CHANGELOG.md).
