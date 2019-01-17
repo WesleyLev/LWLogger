@@ -9,7 +9,7 @@
 #LWLogger 
 
 LWLogger is an API including SLF4j.
-It is a logger, having a configration...
+It's a logger and it having a configuration...
 
 ## Built With
 
@@ -18,11 +18,11 @@ It is a logger, having a configration...
 
 ## Javadoc
 
-View [Javadoc](https://kanekireal.github.io/LWLogger/).
+You can view [Javadoc](https://kanekireal.github.io/LWLogger/) for more informations.
 
 ## Changelog
 
-View [Changelog](https://github.com/kanekireal/LWLogger/blob/master/CHANGELOG.md).
+You can view [Changelog](https://github.com/kanekireal/LWLogger/blob/master/CHANGELOG.md) for view all changes.
 
 ## Versioning
 
