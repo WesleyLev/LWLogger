@@ -8,7 +8,14 @@ and this project adheres to [SemVer](http://semver.org/).
 ### Changed
 - Update and improvement.
 
-## 0.0.1 - 2019-01-17
+## [1.0.1] - 2019-01-17
+### Fix
+- .gitignore
+- README.md
+- CHANGELOG.md
+- LICENSE.md
+
+## 1.0.0 - 2019-01-17
 ### Added
 - LWFactory
 - LWLogger
@@ -18,3 +25,4 @@ and this project adheres to [SemVer](http://semver.org/).
 - StaticMDCBinder
 
 [Unreleased]: https://github.com/kanekireal/lwlogger/compare/v1.0.0-release...HEAD
+[1.0.1]: https://github.com/kanekireal/lwlogger/compare/v1.0.0-release...v1.0.1-release
