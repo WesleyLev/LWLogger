@@ -32,4 +32,4 @@ and this project adheres to [SemVer](http://semver.org/).
 
 [Unreleased]: https://github.com/kanekireal/lwlogger/compare/v1.0.0-release...HEAD
 [1.0.1]: https://github.com/kanekireal/lwlogger/compare/v1.0.0-release...v1.0.1-release
-[1.0.1]: https://github.com/kanekireal/lwlogger/compare/v1.0.0-release...v1.0.2-release
+[1.0.2]: https://github.com/kanekireal/lwlogger/compare/v1.0.0-release...v1.0.2-release
