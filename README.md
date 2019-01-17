@@ -1,6 +1,6 @@
 [version]: https://img.shields.io/badge/Download-v1.0.0-blue.svg
 [download]: https://github.com/kanekireal/LWLogger/releases/latest
-[license]: https://img.shields.io/badge/License-Apach%202.0-lightgrey.svg
+[license]: https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg
 [changelog]: https://img.shields.io/badge/Changelog-V1.0.0-brightgreen.svg
 [ ![version][] ][download]
 [ ![license][] ](https://github.com/kanekireal/LWLogger/blob/master/LICENSE.md)
