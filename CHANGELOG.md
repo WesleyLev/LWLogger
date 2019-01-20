@@ -8,7 +8,7 @@ and this project adheres to [SemVer](http://semver.org/).
 ### Changed
 - Update and improvement.
 
-## [1.0.2] - 2019-01-17
+## [1.0.3] - 2019-01-17
 ### Fix
 - LWFactory
 ### Update
