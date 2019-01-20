@@ -31,7 +31,7 @@ public class LWFactory implements ILoggerFactory {
      * @param logsDir the logs dir
      * @throws DirGeneratorException the dir generator exception
      */
-    LWFactory(@NotNull final String logsDir) throws DirGeneratorException {
+    public LWFactory(@NotNull final String logsDir) throws DirGeneratorException {
         this.logsDir = new DirGenerator(logsDir);
     }
 
@@ -52,7 +52,7 @@ public class LWFactory implements ILoggerFactory {
      *
      * @param log the log
      */
-    void log(@NotNull final String log) {
+    protected void log(@NotNull final String log) {
         this.logs.add(log);
     }
 

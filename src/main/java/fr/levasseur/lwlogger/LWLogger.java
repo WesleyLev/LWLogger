@@ -24,7 +24,7 @@ public class LWLogger implements Logger {
     /**
      * The Date format.
      */
-    static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+    protected static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
     private static final String lineFormat = "[{DATE}] [{LEVEL}-{NAME}] {MESSAGE}";
     private final LWFactory factory;
     private final String name;

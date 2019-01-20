@@ -1,4 +1,4 @@
-[version]: https://img.shields.io/badge/Download-v1.0.2-blue.svg
+[version]: https://img.shields.io/badge/Download-v1.0.3-blue.svg
 [download]: https://github.com/kanekireal/LWLogger/releases/latest
 [javadoc]: https://img.shields.io/badge/Javadoc-View-red.svg
 [changelog]: https://img.shields.io/badge/Changelog-View-brightgreen.svg
